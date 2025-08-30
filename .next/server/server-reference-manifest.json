@@ -1,0 +1,17 @@
+{
+  "node": {
+    "7faffe1a0c379415d8e9b4d04484763eb3e41c1339": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/hubspot-upsert-flow.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "YboMme3lYBsjSY2IkICEoYmojrcE3w0c5pFSXkeRdLM="
+}
