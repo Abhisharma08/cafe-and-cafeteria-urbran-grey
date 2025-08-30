@@ -1,20 +1,29 @@
-# Node modules
+# Node.js
 node_modules/
+npm-debug.log*
 
-# Logs
-*.log
+# Next.js
+.next/
+out/
 
-# Environment files
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# MacOS
+.DS_Store
+
+# Environment
 .env
 
-# OS system files
-.DS_Store
+# System files
 Thumbs.db
+Desktop.ini
+*.lnk
 
-# Optional: ignore all other files outside project folder
-# *
-# !package.json
-# !package-lock.json
-# !src/
-# !public/
+# Ignore everything outside project folder
+AppData/
+NTUSER.*
 
