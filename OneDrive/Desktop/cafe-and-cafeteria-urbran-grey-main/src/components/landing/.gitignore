@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore all other files outside project folder
+# *
+# !package.json
+# !package-lock.json
+# !src/
+# !public/
