@@ -1,15 +1,16 @@
-# Node modules
+# Node.js dependencies
 node_modules/
 
-# Next.js build folder
+# Next.js build output
 .next/
+out/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Env files
+# Environment variables
 .env
 .env.local
 .env.development
@@ -19,7 +20,7 @@ yarn-error.log*
 # VSCode
 .vscode/
 
-# IDEs
+# JetBrains IDEs
 .idea/
 
 # System files
@@ -27,3 +28,7 @@ yarn-error.log*
 Thumbs.db
 Desktop.ini
 *.lnk
+
+# Optional: npm package-lock or yarn lock if you don't want to track
+# package-lock.json
+# yarn.lock
