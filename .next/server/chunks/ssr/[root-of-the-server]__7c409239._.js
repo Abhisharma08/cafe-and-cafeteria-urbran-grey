@@ -259,10 +259,9 @@ const HubspotUpsertInputSchema = __TURBOPACK__imported__module__$5b$project$5d2f
     phoneNumber: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["z"].string().optional().describe("The contact's phone number."),
     city: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["z"].string().optional().describe("The contact's city."),
     requirement: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["z"].enum([
-        "Boardroom Elegance",
-        "Collaborative Meeting Zones",
-        "Compact Conference Settings",
-        "Integrated Tech & Storage"
+        "Casual Dining Tables",
+        "Booth & Lounge Seating",
+        "Bar Stools & High Tables"
     ]).optional().describe('The contact\'s furniture requirement.'),
     quantity: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["z"].enum([
         "3+",
